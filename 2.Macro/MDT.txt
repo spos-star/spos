@@ -1,0 +1,17 @@
+0		 INCR &A,&B,&AREG
+1		 MOVER #2,#0
+2		 ADD #0,#1
+3		 MOVEM #2,#0
+4		 MEND
+5		 ADDS &F,&S
+6		 MOVER AREG,#0
+7		 ADD AREG,#1
+8		 MOVEM AREG,#1
+9		 Write #1
+10		 MEND
+11		 SUBS &F,&S
+12		 MOVER BREG,#0
+13		 SUB BREG,#1
+14		 MOVEM BREG,#1
+15		 Write #1
+16		 MEND

@@ -1,0 +1,11 @@
+javac Addition.java
+
+javac -h . Addition.java
+
+locate jni.h
+
+locate jni_md.h
+
+g++ -o libAddition.so -shared -fPIE -I /usr/lib/jvm/java-17-openjdk-amd64/include/ -I /usr/lib/jvm/java-17-openjdk-amd64/include/linux/ Addition.cpp
+
+java -Djava.library.path=. Addition

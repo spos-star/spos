@@ -1,0 +1,5 @@
+javac pass1_macro.java
+java pass1_macro
+
+javac macro_pass_2.java
+java macro_pass_2

@@ -1,0 +1,5 @@
+javac Pass1asm.java
+java Pass1asm
+
+javac Pass2asm.java
+java Pass2asm
